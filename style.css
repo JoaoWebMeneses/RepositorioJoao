@@ -1,0 +1,17 @@
+/* marcar a tag, o id ou a class*/
+
+body{
+    background-color: blue;
+}
+
+#Titulo-Principal{
+    color: white;
+    font-size: 28px;
+    font-family: Arial;
+}
+
+.titulos{
+    color:rgb(200, 201, 190);
+    font-size: 14px;
+    font-family: Arial;
+}
