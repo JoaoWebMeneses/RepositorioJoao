@@ -4,5 +4,5 @@ function Cor1(){
 }
 function Cor2(){
     document.body.style.backgroundColor = 'black';
-    document.getElementsByClassName("txt").style.color = "white";
+    document.getElementsByTagName("h1").style.color = "white";
 }
