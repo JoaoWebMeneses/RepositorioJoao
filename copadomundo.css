@@ -1,0 +1,34 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+body{
+    background: linear-gradient(45deg, rgb(88, 19, 58), black);
+    color: white;
+}
+.container{
+    background-color: blueviolet;
+    color: black;
+    height: 200px;
+    width: 300px;
+    align-items: center;
+}
+.button{
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+.porcentagem{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+}
+.gasto{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+}

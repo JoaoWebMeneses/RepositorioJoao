@@ -1,0 +1,12 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+body{
+    background: linear-gradient(45deg, rgb(88, 19, 58), black);
+    color: white;
+    align-items: center;
+}
