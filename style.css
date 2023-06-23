@@ -1,6 +1,56 @@
-h1{
-    color: black;
+body{
+    background-color: #151516;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
-p{
-    color: black;
+#imagem{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+#container{
+    position: absolute;
+    right: 250px;
+    top: 45px;
+    background-color: black;
+    color: white;
+    height: 550px;
+    width: 380px;
+}
+#calcular{
+    width: 300px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(26, 200, 26);
+}
+#limpar{
+    width: 300px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(200, 38, 26);
+}
+#limpar:hover{
+    box-shadow: rgb(255, 112, 87) -2px 0px 10px 5px;
+    cursor: pointer;
+}
+#calcular:hover{
+    box-shadow: rgb(137, 255, 87) -2px 0px 10px 5px;
+    cursor: pointer;
+}
+#title{
+    color: rgb(26, 200, 26);
+}
+#imc1{
+    color: rgb(26, 200, 26);
+    position: absolute;
+    left: 30px;
+}
+#imc2{
+    position: absolute;
+    left: 50px;
+}
+#res{
+    position: absolute;
+    top: 400px;
+    right: 10px;
 }

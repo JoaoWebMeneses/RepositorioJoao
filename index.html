@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <img src="https://img.freepik.com/icones-gratis/atleta_318-336670.jpg?q=10&h=200" id="imagem">
+    <div id="container">
+        <h2 id="title">CALCULADORA IMC</h2>
+        <br>
+        <h3 id="pesotxt">Qual o seu peso?</h3>
+        <input type="number" placeholder="Peso em KG" id="peso">
+        <br>
+        <br>
+        <br>
+        <h3 id="alturatxt">Qual a sua altura?</h3>
+        <input type="number" placeholder="Altura em CM" id="altura">
+        <br>
+        <br>
+        <button id="calcular" onclick='Calcular()'>Calcular</button>
+        <br>
+        <button id="limpar" onclick='Limpar()'>Limpar</button>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <h1 id="imc1">0.00</h3>
+        <br>
+        <br>
+        <h2 id="imc2">IMC</h2>
+        <h5 id="res"></h5>
+    </div>
+</body>
+</html>
