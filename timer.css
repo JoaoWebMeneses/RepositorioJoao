@@ -1,0 +1,47 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+body{
+    background: linear-gradient(90deg, rgb(110, 110, 110), gray);
+}
+#title{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    color: white;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    left: 600px;
+    background-color: darkgray;
+    height: 400px;
+    width: 400px;
+    border-radius: 8px;
+}
+#minutes{
+    color: azure; 
+    background-color: rgb(22, 22, 22);
+    font-size: 70px;
+}
+#seconds{
+    color: azure; 
+    background-color: rgb(22, 22, 22);
+    font-size: 70px;
+}
+#twopoints{
+    font-size: 70px;
+}
+#start{
+    background-color: rgb(35, 211, 35);
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 300px;
+    width: 300px;
+}
+#start:hover{
+    cursor: pointer;
+}
