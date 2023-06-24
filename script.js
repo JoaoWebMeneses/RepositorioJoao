@@ -7,9 +7,8 @@ function Calcular(){
     if (galtura <= 0 || gpeso <= 0){
         document.getElementById('imc1').innerHTML = '0.00';
         document.getElementById('res').innerHTML = `Valor inválido!`;
-        return;
     }
-    if (imc < 18.5){
+    else if (imc < 18.5){
         document.getElementById('res').innerHTML = `Você está com magreza!`;
     }
     else if (imc >= 18.5 && imc < 25){
