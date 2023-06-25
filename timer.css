@@ -15,7 +15,7 @@ body{
     justify-content: center;
     position: absolute;
     align-items: center;
-    left: 600px;
+    left: 570px;
     background-color: darkgray;
     height: 400px;
     width: 400px;
@@ -42,6 +42,19 @@ body{
     top: 300px;
     width: 300px;
 }
-#start:hover{
-    cursor: pointer;
+#pause{
+    background-color: rgb(190, 186, 186);
+    color: rgb(43, 42, 42);
+    border-radius: 10px;
+    position: absolute;
+    top: 330px;
+    width: 300px;
+}
+#stop{
+    background-color: rgb(234, 75, 75);
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 360px;
+    width: 300px;
 }
