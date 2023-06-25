@@ -23,6 +23,18 @@ function Start() {
             } else {
                 minutesElement.innerHTML = minutes;
             }
+            if (minutes < 10 && seconds < 10){
+                document.title = `0${minutes}:0${seconds}`;
+            }
+            else if (minutes < 10 && seconds >= 10){
+                document.title = `0${minutes}:${seconds}`;
+            }
+            else if (minutes >= 10 && seconds < 10){
+                document.title = `${minutes}:0${seconds}`;
+            }
+            else if (minutes >= 10 && seconds >= 10){
+                document.title = `${minutes}:${seconds}`
+            }
         }, 1000);
     }
 }
